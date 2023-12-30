@@ -1,0 +1,39 @@
+@import "../../../style/globals.scss";
+
+.metric-box {
+  background-color: $bg-color-boxes;
+  color: $text-color;
+  width: 32%;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+
+  .title {
+    font-weight: 500;
+    font-size: 18px;
+    color: $text-color;
+  }
+
+  .number {
+    margin-right: 20px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .green {
+    color: rgb(58, 219, 58);
+  }
+
+  .red {
+    color: red;
+  }
+
+  .icon {
+    font-size: 14px;
+  }
+
+  .growth {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+}

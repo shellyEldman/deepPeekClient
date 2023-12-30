@@ -1,0 +1,28 @@
+@import "./globals.scss";
+
+.app {
+  background-color: #080219;
+  min-height: 100vh;
+  padding: 20px 10px;
+
+  .custom-select {
+    width: 150px;
+    background-color: $bg-color-boxes;
+    border: none;
+    color: $text-color;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-opacity='0.8' stroke-width='2' d='M2 6l6 6 6-6'/%3E%3C/svg%3E");
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

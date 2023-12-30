@@ -1,0 +1,24 @@
+@import "../../style/globals.scss";
+
+.model-traffic {
+  width: 50%;
+  padding: 0 20px;
+
+  .box {
+    background-color: $bg-color-boxes;
+    border-radius: 10px;
+    height: 100%;
+    padding: 30px;
+
+    .title {
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .custom-select {
+      border: $border;
+      width: 180px;
+    }
+  }
+}

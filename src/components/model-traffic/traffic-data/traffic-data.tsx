@@ -61,15 +61,9 @@ const TrafficData = ({
 
   return (
     <div className="traffic-data d-flex">
-      {traffic && (
-        <SingleData title="Traffic Pattern" amount={traffic} color="#26babf" />
-      )}
-      {detectors && (
-        <SingleData title="Detectors" amount={detectors} color="#bf26ad" />
-      )}
-      {protectors && (
-        <SingleData title="Protectors" amount={protectors} color="#7b0ddb" />
-      )}
+      <SingleData title="Traffic Pattern" amount={traffic} color="#26babf" />
+      <SingleData title="Detectors" amount={detectors} color="#bf26ad" />
+      <SingleData title="Protectors" amount={protectors} color="#7b0ddb" />
     </div>
   );
 };
